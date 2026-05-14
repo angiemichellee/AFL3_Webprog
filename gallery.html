@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Angie Michelle</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-[#FDF5F0] font-['Poppins'] flex flex-col">
+
+    <header class="w-full sticky top-0 bg-[#FDF5F0]/90 backdrop-blur-md z-50">
+        <div class="flex justify-between items-center px-12 py-8 max-w-7xl mx-auto">
+            <div class="logo font-['Playfair_Display'] font-bold text-2xl text-[#8B5E3C]">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="logo" width="70">
+                </a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6 items-center">
+                    <li><a href="about.html" class="nav-item">About</a></li>
+                    <li><a href="hobby.html" class="nav-item">Hobby</a></li>
+                    <li><a href="gallery.html" class="nav-item active">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-item">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-12 pt-16 pb-40 w-full">
+        <h2 class="text-6xl font-['Playfair_Display'] italic text-[#8B5E3C] mb-16 text-center">My Gallery</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div class="gallery-card"><img src="assets/satu.png" alt="Img 1"></div>
+            <div class="gallery-card"><img src="assets/dua.png" alt="Img 2"></div>
+            <div class="gallery-card"><img src="assets/tiga.png" alt="Img 3"></div>
+            <div class="gallery-card"><img src="assets/empat.png" alt="Img 4"></div>
+
+            <div class="gallery-card"><img src="assets/lima.png" alt="Img 5"></div>
+            <div class="gallery-card"><img src="assets/enam.png" alt="Img 6"></div>
+            <div class="gallery-card"><img src="assets/tujuh.png" alt="Img 7"></div>
+            <div class="gallery-card"><img src="assets/delapan.png" alt="Img 8"></div>
+        </div>
+    </main>
+
+    <footer class="w-full py-16 bg-white text-center border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-6">
+            <p class="italic mb-2 text-gray-500">"Still learning. Still growing. Still becoming."</p>
+            <p class="mb-8 font-light text-gray-400">Thank you for visiting my website ♡</p>
+            <div class="flex justify-center space-x-12 mb-10 text-[#8B5E3C] text-2xl">
+                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="text-xs text-gray-400 font-medium tracking-[0.3em] uppercase">© 2026 Angie Michelle Grafiella</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
